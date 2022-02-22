@@ -17,6 +17,8 @@ public class Aula01Caneta {
         can1.status();
         can1.rabiscar();
         
+        System.out.println("");
+        
         //Criação do objeto Caneta 'can2'
         Caneta can2 = new Caneta();
         
