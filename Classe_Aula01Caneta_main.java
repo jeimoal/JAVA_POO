@@ -2,6 +2,7 @@ package aula01caneta;
 public class Aula01Caneta {
 
     public static void main(String[] args) {
+        /*
         //Criação do objeto Caneta 'can1'
         Caneta can1 = new Caneta();
         
@@ -33,6 +34,24 @@ public class Aula01Caneta {
         can1.tampar();
         can1.status();
         can1.rabiscar();
+        */
+        
+        //Criação do objeto Caneta 'can1'
+        Caneta can1 = new Caneta();
+        
+        //Alterando atributos
+        can1.modelo = "Bica Bicada";
+        can1.cor = "Verde limão";
+        //can1.ponta = 0.1f; Erro: Atributo privado
+        can1.carga = 77;
+        
+        
+        //Chamando Métodos
+        can1.status();
+        can1.tampar();
+        can1.rabiscar();
+        
+        //A caneta não irá rabiscar
     }
     
 }
